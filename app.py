@@ -8,7 +8,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-VERSION = "3.0.0l"
+VERSION = "3.9.0j"
 SERVER_NAME = "asphalt8-test"
 DB_PATH = os.environ.get("DB_PATH", "asphalt8_test.db")
 
